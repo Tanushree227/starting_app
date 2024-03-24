@@ -3,7 +3,8 @@ import Heading from "./components/Heading";
 function App() {
   return (
     <div>
-      <Heading />
+      <h1>Getting started with React.</h1>
+      <Heading name="Tanushree" />
     </div>
   );
 }

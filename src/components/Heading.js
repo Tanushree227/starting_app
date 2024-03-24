@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function Heading() {
+export default function Heading(props) {
   return (
-    <div>Getting started with React.</div>
+    <div>
+        <h2>Hakuna Matata {props}</h2>
+    </div>
   )
 }
