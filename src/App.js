@@ -1,7 +1,9 @@
+import Heading from "./components/Heading";
+
 function App() {
   return (
     <div>
-      <h1>Getting Started with React.</h1>
+      <Heading />
     </div>
   );
 }
