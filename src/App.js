@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <h1>Getting started with React.</h1>
-      <Heading name="Tanushree" />
+      <Heading firstName="Bob" name="Tanushree" />
     </div>
   );
 }
