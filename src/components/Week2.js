@@ -9,7 +9,7 @@ export default function Week2() {
   return (
     <div align="center">
         <h1>Week2 Learnings</h1>
-        <button onClick={clickHandler}>Click Here!</button>
+        <button className='btn btn-success' onClick={clickHandler}>Click Here!</button>
     </div>
   )
 }
