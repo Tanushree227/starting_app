@@ -1,5 +1,19 @@
 import React from "react";
 
+export function Parent() 
+{
+    <>
+    <h1>Hii I'm Parent component</h1>
+    <Child avenger="ironman" />
+    </>
+}
+export function Child(props)
+{
+    <div>
+        <h1>Hii I'm the Child component, and I'm {props.avenger} fan.</h1>
+    </div>
+}
+
 export default function Week2() {
   let darkModeOn = false;
   const darkMode = <h1>Dark Mode is On</h1>;
@@ -18,16 +32,18 @@ export default function Week2() {
 
   return (
     <div align="center">
-      <h1>Week2 Learnings</h1>
+      <h1>Week - 2 Learnings</h1>
       <button className="btn btn-success" onClick={clickHandler}>
         Click Here!
       </button>
       <div>
         {darkModeOn ? darkMode : lightMode}
+        <p>After changing the mode variable</p>
         <button className="btn btn-outline-success" onClick={handleClick}>
           Click here again..
         </button>
       </div>
+      <Parent />
     </div>
   );
 }
