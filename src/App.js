@@ -1,5 +1,6 @@
 import Heading from "./components/Heading";
 import List from "./components/List";
+import Week2 from "./components/Week2";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1>Getting started with React.</h1>
       <Heading firstName="Bob" name="Tanushree" />
       <List />
+      <Week2 />
     </div>
   );
 }
