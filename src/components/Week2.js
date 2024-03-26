@@ -42,6 +42,7 @@ export default function Week2() {
         <button className="btn btn-outline-success" onClick={handleClick}>
           Click here again..
         </button>
+        <p><strong>React Hooks: </strong>Hooks let you use state and other React features without writing a class.</p>
       </div>
       <Parent />
     </div>
