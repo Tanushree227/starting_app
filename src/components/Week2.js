@@ -43,6 +43,12 @@ export default function Week2() {
           Click here again..
         </button>
         <p><strong>React Hooks: </strong>Hooks let you use state and other React features without writing a class.</p>
+        <ul>
+          <p>There are 3 rules for hooks:</p>
+          <li>Hooks can only be called inside React function components.</li>
+          <li>Hooks can only be called at the top level of a component.</li>
+          <li>Hooks cannot be conditional.</li>
+        </ul>
       </div>
       <Parent />
     </div>
