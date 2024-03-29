@@ -26,6 +26,7 @@ export default function Week3() {
       <div className="card shadow-lg m-5 p-5 w-75">
         <h1 className="card-title text-center">Using Assets in React</h1>
         <img className="w-50 mt-3 card-img" src={bg1} alt="background pic" />
+        <p></p>
       </div>
       </div>
     </div>
