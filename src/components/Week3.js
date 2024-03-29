@@ -10,4 +10,3 @@ export default function Week3() {
     </div>
   )
 }
-
